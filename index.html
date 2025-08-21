@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carlos Eduardo da Silva Moura — Currículo</title>
+  <style>
+    :root{
+      --max-width:900px;
+      --accent:#222;
+      --muted:#555;
+      --paper:#fbfaf8;
+      --border:#e6e2de;
+      font-family: 'Georgia', 'Times New Roman', Times, serif;
+    }
+    body{
+      background: #f1efe9;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      min-height:100vh;
+      margin:0;
+    }
+    .paper{
+      width:100%;
+      max-width:var(--max-width);
+      background:var(--paper);
+      border:1px solid var(--border);
+      padding:40px 48px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.06);
+    }
+    header{margin-bottom:22px}
+    h1{
+      font-size:44px;
+      margin:0 0 6px 0;
+      color:var(--accent);
+      letter-spacing:0.4px;
+    }
+    h2.subtitle{
+      font-size:20px;
+      margin:0 0 14px 0;
+      color:var(--muted);
+      font-weight:normal;
+    }
+    .contact{
+      font-size:14px;
+      color:var(--muted);
+      margin-bottom:18px;
+    }
+    .contact strong{color:var(--accent)}
+    section{margin-top:14px}
+    h3{
+      font-size:16px;
+      margin:18px 0 8px 0;
+      color:var(--accent);
+      border-bottom:1px dashed var(--border);
+      padding-bottom:6px;
+      font-weight:normal;
+    }
+    ul{margin:8px 0 0 18px}
+    li{margin:8px 0; color:var(--muted); font-size:15px}
+    .small{font-size:13px; color:var(--muted)}
+    footer{margin-top:28px; font-size:13px; color:var(--muted)}
+    /* responsive */
+    @media (max-width:520px){
+      .paper{padding:20px}
+      h1{font-size:32px}
+      h2.subtitle{font-size:16px}
+    }
+  </style>
+</head>
+<body>
+  <main class="paper" role="main">
+    <header>
+      <h1>Carlos Eduardo da Silva Moura</h1>
+      <div class="subtitle-block">
+        <h2 class="subtitle">Desenvolvedor Front-end</h2>
+      </div>
+      <div class="contact">
+        <div><strong>Endereço:</strong> Rua 3 Marias, número 10, Santa Mônica, Camaragibe</div>
+        <div><strong>Contato:</strong> carloseduardodasilvamoura@gmail.com / (081) 0000-0000</div>
+        <div><strong>Github:</strong> carloseduardodasilvamorua / <strong>LinkedIn:</strong> -----</div>
+      </div>
+    </header>
+
+    <section aria-labelledby="formacao">
+      <h3 id="formacao">Formação acadêmica</h3>
+      <ul>
+        <li>Cursando Análise e Desenvolvimento de Sistemas</li>
+        <li>Ensino médio concluído</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="info">
+      <h3 id="info">Informações relevantes</h3>
+      <ul>
+        <li>Conhecimento básico de Python, HTML, CSS</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="portfolio">
+      <h3 id="portfolio">Portfólio</h3>
+      <ul>
+        <li>Calculadora básica em Python</li>
+        <li>Toca músicas, jogo Tetris</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="small">Disponível para contato e envio de portfólio/links ao solicitar.</div>
+    </footer>
+  </main>
+</body>
+</html>
