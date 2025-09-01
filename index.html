@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
       color: white;
       border: 2px solid white;
       border-radius: 20px;      
-      padding: 10px;
+      padding: 20px;
       max-width: 700px;        
       margin: auto;             
     }
@@ -23,6 +23,25 @@
     h1 { color: rgb(249, 0, 0); }
     h2 { color: cyan; }
     h3 { margin-top: 20px; }
+
+    /* Cores personalizadas para os textos */
+    .endereco { color: lime; }
+    .contato { color: orange; }
+    .github { color: violet; }
+    .linkedin { color: yellow; }
+
+    .formacao { color: magenta; }
+    .formacao-item1 { color: lime; }
+    .formacao-item2 { color: cyan; }
+
+    .info { color: orange; }
+    .info-item { color: violet; }
+
+    .portfolio { color: red; }
+    .portfolio-item1 { color: cyan; }
+    .portfolio-item2 { color: lime; }
+
+    footer { color: gray; margin-top: 20px; }
   </style>
 </head>
 <body>
@@ -31,37 +50,37 @@
       <h1>Carlos Eduardo da Silva Moura</h1>
       <h2>Desenvolvedor Front-end</h2>
 
-      <p style="color: lime;"><strong>Endereço:</strong> Rua 3 Marias, número 10, Santa Mônica, Camaragibe</p>
-      <p style="color: orange;"><strong>Contato:</strong> carloseduardodasilvamoura@gmail.com / (081) 0000-0000</p>
-      <p style="color: violet;"><strong>Github:</strong> carloseduardodasilvamorua</p>
-      <p style="color: yellow;"><strong>LinkedIn:</strong> -----</p>
+      <p class="endereco"><strong>Endereço:</strong> Rua 3 Marias, número 10, Santa Mônica, Camaragibe</p>
+      <p class="contato"><strong>Contato:</strong> carloseduardodasilvamoura@gmail.com / (081) 0000-0000</p>
+      <p class="github"><strong>Github:</strong> carloseduardodasilvamorua</p>
+      <p class="linkedin"><strong>LinkedIn:</strong> -----</p>
     </header>
 
     <section>
-      <h3 style="color: magenta;">Formação acadêmica</h3>
+      <h3 class="formacao">Formação acadêmica</h3>
       <ul>
-        <li style="color: lime;">Cursando Análise e Desenvolvimento de Sistemas</li>
-        <li style="color: cyan;">Ensino médio concluído</li>
+        <li class="formacao-item1">Cursando Análise e Desenvolvimento de Sistemas</li>
+        <li class="formacao-item2">Ensino médio concluído</li>
       </ul>
     </section>
 
     <section>
-      <h3 style="color: orange;">Informações relevantes</h3>
+      <h3 class="info">Informações relevantes</h3>
       <ul>
-        <li style="color: violet;">Conhecimento básico de Python, HTML, CSS</li>
+        <li class="info-item">Conhecimento básico de Python, HTML, CSS</li>
       </ul>
     </section>
 
     <section>
-      <h3 style="color: red;">Portfólio</h3>
+      <h3 class="portfolio">Portfólio</h3>
       <ul>
-        <li style="color: cyan;">Calculadora básica em Python</li>
-        <li style="color: lime;">Toca músicas, jogo Tetris</li>
+        <li class="portfolio-item1">Calculadora básica em Python</li>
+        <li class="portfolio-item2">Toca músicas, jogo Tetris</li>
       </ul>
     </section>
 
     <footer>
-      <p style="color: gray;">Disponível para contato e envio de portfólio/links ao solicitar.</p>
+      <p>Disponível para contato e envio de portfólio/links ao solicitar.</p>
     </footer>
   </main>
 </body>
