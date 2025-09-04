@@ -10,42 +10,40 @@
       padding: 40px;
     }
 
-    .curriculo {
-      background-color: #111;   
+    main {
+      background-color: #111;
       color: white;
       border: 2px solid white;
-      border-radius: 20px;      
+      border-radius: 20px;
       padding: 20px;
-      max-width: 700px;        
-      margin: auto;             
+      max-width: 700px;
+      margin: auto;
     }
 
-    h1 { color: rgb(249, 0, 0); }
+    h1 { color: red; }
     h2 { color: cyan; }
     h3 { margin-top: 20px; }
 
-    /* Cores personalizadas para os textos */
+    p strong { color: white; }
     .endereco { color: lime; }
     .contato { color: orange; }
     .github { color: violet; }
     .linkedin { color: yellow; }
 
+    ul { margin-left: 20px; }
     .formacao { color: magenta; }
-    .formacao-item1 { color: lime; }
-    .formacao-item2 { color: cyan; }
-
     .info { color: orange; }
-    .info-item { color: violet; }
-
     .portfolio { color: red; }
-    .portfolio-item1 { color: cyan; }
-    .portfolio-item2 { color: lime; }
 
-    footer { color: gray; margin-top: 20px; }
+    footer {
+      color: gray;
+      margin-top: 20px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <main class="curriculo">
+  <main>
     <header>
       <h1>Carlos Eduardo da Silva Moura</h1>
       <h2>Desenvolvedor Front-end</h2>
@@ -59,23 +57,23 @@
     <section>
       <h3 class="formacao">Formação acadêmica</h3>
       <ul>
-        <li class="formacao-item1">Cursando Análise e Desenvolvimento de Sistemas</li>
-        <li class="formacao-item2">Ensino médio concluído</li>
+        <li>Cursando Análise e Desenvolvimento de Sistemas</li>
+        <li>Ensino médio concluído</li>
       </ul>
     </section>
 
     <section>
       <h3 class="info">Informações relevantes</h3>
       <ul>
-        <li class="info-item">Conhecimento básico de Python, HTML, CSS</li>
+        <li>Conhecimento básico de Python, HTML, CSS</li>
       </ul>
     </section>
 
     <section>
       <h3 class="portfolio">Portfólio</h3>
       <ul>
-        <li class="portfolio-item1">Calculadora básica em Python</li>
-        <li class="portfolio-item2">Toca músicas, jogo Tetris</li>
+        <li>Calculadora básica em Python</li>
+        <li>Toca músicas, jogo Tetris</li>
       </ul>
     </section>
 
